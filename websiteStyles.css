@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
 
 body{
-  background-image: url("file:///C:/Users/ajrob/OneDrive/Desktop/Fall%202023/ITEC%20362/startrekWebsite/Images/holodeckBackground1.webp");
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/d/d3/Holodeck2.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-image: url("file:///C:/Users/ajrob/OneDrive/Desktop/Fall%202023/ITEC%20362/startrekWebsite/Images/startrekBanner1.webp"); 
+  background-image: url("https://paramountshop.com/cdn/shop/collections/StarTrek-Desktop-min_ead3a63b-81c2-4f71-80f7-18b5b23ad681.png?v=1676580998"); 
   height: 13rem;
   margin: 0;
   border-radius: 2rem;
