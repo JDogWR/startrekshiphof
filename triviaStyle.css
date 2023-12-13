@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
+
+body{
+  background-image: url("file:///C:/Users/ajrob/OneDrive/Desktop/Fall%202023/ITEC%20362/startrekWebsite/Images/holodeckBackground1.webp");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-image: url("file:///C:/Users/ajrob/OneDrive/Desktop/Fall%202023/ITEC%20362/startrekWebsite/Images/startrekBanner1.webp"); 
+  height: 13rem;
+  margin: 0;
+  border-radius: 2rem;
+}
+
+h1 {
+  margin: 0; 
+}
+
+nav {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border: 2px solid black;
+  background-color: #45f;
+  border-radius: 2rem;
+}
+
+ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+li {
+  display: inline-block; 
+  margin: 10px; 
+}
+
+a {
+  color: #ffaa90; 
+  text-decoration: none;
+  font-size: 20px; 
+  font-weight: bold; 
+  font-family: "Antonio", sans-serif;
+}
+
+a:hover, a:focus {
+  color: #f70; 
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(201, 133, 201);
+}
+
+section {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  margin: 5px;
+}
+
+p{
+  color: black;
+  background-color: #45f;
+  font-family: "Antonio", sans-serif;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+/* Quiz Container */
+.quiz-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #45f;
+    border-radius: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Question */
+  .question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color:#ffaa90;
+    font-family: "Antonio", sans-serif;
+  }
+  
+  /* Options List */
+  .options {
+    list-style-type: none;
+    padding: 0;
+    color:black;
+    font-family: "Antonio", sans-serif;
+    background-color: #45f;
+  }
+  
+  /* Options Items */
+  .options li {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:#ffaa90;
+    background-color: #45f;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Options Hover State */
+  .options li:hover {
+    color: black;
+    background-color: #cc88ff;
+  }
+  
+  /* Selected Option */
+  .options li.selected {
+    background-color: #bada55;
+    color: #fff;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    padding: 10px 20px;
+    font-family: "Antonio", sans-serif;
+    font-size: 18px;
+    background-color: #f70;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Submit Button Hover State */
+  .submit-button:hover {
+    background-color: #cc88ff;
+    color: black;
+  }
+  
+  /* Results Display */
+  #results {
+    margin-top: 20px;
+    font-family: "Antonio", sans-serif;
+    font-size: 18px;
+    color: #ffaa90;
+    border-radius: 2rem;
+  }
+
+
+
+/* fieldset legend {
+  background-color: #45f;
+  padding: 1rem;
+  border-radius: 2rem 2rem 0rem 0rem;
+} */
+
+article {
+  width: 50%; 
+  font-family: "Antonio", sans-serif;
+  font-size: 2rem; 
+  text-align: justify; 
+  background-color: #45f;
+  border-radius: 2rem;
+  margin: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+footer {
+  background-color: black; 
+  color: white; 
+  font-size: 14px; 
+  text-align: center; 
+  font-family: "Antonio", sans-serif;
+  padding: 10px;
+  margin-top: auto;
+  border-radius: 2rem;
+}
+
+footer p{ 
+  background-color: black;
+color: white;
+font-size: 14px;
+text-align: center;
+font-family: "Antonio", sans-serif;
+padding: 10px;
+margin-top: auto;
+border-radius: 2rem;
+}
+
